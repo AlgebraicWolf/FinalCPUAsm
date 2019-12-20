@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMurMurHash3.a  CMakeFiles/MurMurHash3.dir/MurMurHash3.cpp.o
+/usr/bin/ranlib libMurMurHash3.a

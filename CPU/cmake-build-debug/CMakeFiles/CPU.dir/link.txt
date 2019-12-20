@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/CPU.dir/main.cpp.o  -o CPU  libStackLibrary.a libMurMurHash3.a 

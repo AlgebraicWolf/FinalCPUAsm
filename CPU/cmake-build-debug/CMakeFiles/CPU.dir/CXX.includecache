@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/main.cpp
+assert.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+unistd.h
+-
+stack.h
+/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/stack.h
+../commands.h
+/home/alexey/Programming/MIPT_1sem_programming_homework/commands.h
+
+/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/stack.h
+stdlib.h
+-
+stdio.h
+-
+
+/home/alexey/Programming/MIPT_1sem_programming_homework/commands.h
+

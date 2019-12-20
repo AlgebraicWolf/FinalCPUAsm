@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPU"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MurMurHash3">
+				<Option output="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/libMurMurHash3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 MurMurHash3"/>
+					<CompileFile command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MurMurHash3/fast">
+				<Option output="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/libMurMurHash3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 MurMurHash3/fast"/>
+					<CompileFile command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPU">
+				<Option output="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/CPU" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPU"/>
+					<CompileFile command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPU/fast">
+				<Option output="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/CPU" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPU/fast"/>
+					<CompileFile command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackLibrary">
+				<Option output="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/libStackLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 StackLibrary"/>
+					<CompileFile command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StackLibrary/fast">
+				<Option output="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/libStackLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 StackLibrary/fast"/>
+					<CompileFile command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j8 -f &quot;/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/MurMurHash3.cpp">
+			<Option target="MurMurHash3"/>
+		</Unit>
+		<Unit filename="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/MurMurHash3.h">
+			<Option target="MurMurHash3"/>
+		</Unit>
+		<Unit filename="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/main.cpp">
+			<Option target="CPU"/>
+		</Unit>
+		<Unit filename="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/stack.cpp">
+			<Option target="StackLibrary"/>
+		</Unit>
+		<Unit filename="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/stack.h">
+			<Option target="StackLibrary"/>
+		</Unit>
+		<Unit filename="/home/alexey/Programming/MIPT_1sem_programming_homework/CPU/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
